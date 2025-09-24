@@ -1,1 +1,189 @@
-kathrynschuler.com
+<!--
+  Dr. Sunil Chandra Barman - Personal Academic Homepage
+  ----------------------------------------------------
+  * Save this file as `index.html` in a GitHub repository named
+    `sunilchandrabarman.github.io` (replace with your GitHub username)
+  * Edit the placeholder text (BIO, research areas, publications, links,
+    photo) to match Dr. Barman's real details.
+  * To publish on GitHub Pages: create the repo, push this file to the root,
+    then enable GitHub Pages (usually automatic for username.github.io repos).
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dr. Sunil Chandra Barman — Researcher · Educator</title>
+  <meta name="description" content="Homepage of Dr. Sunil Chandra Barman — research, publications, teaching, contact.">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo="> <!-- tiny transparent favicon -->
+  <style>
+    :root{--accent:#0b63d6;--muted:#6b7280;--card:#ffffff;--bg:#f7f9fc}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+    body{background:var(--bg);color:#0f1724;line-height:1.5}
+    .container{max-width:1000px;margin:36px auto;padding:24px}
+
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:110px;height:110px;border-radius:12px;flex:0 0 110px;background:linear-gradient(135deg,var(--accent),#6b21a8);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:36px}
+    h1{margin:0;font-size:28px}
+    .subtitle{color:var(--muted);margin-top:6px}
+
+    nav{margin-top:16px;display:flex;gap:12px;flex-wrap:wrap}
+    a.btn{padding:8px 12px;border-radius:8px;text-decoration:none;border:1px solid transparent;background:white;box-shadow:0 1px 2px rgba(0,0,0,0.03);color:#0b1220;font-weight:600}
+    a.btn.primary{background:var(--accent);color:white}
+
+    main{margin-top:28px;display:grid;grid-template-columns:1fr;gap:18px}
+    .card{background:var(--card);border-radius:12px;padding:16px;box-shadow:0 6px 18px rgba(12,20,40,0.06)}
+
+    .two-col{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    .metrics{display:flex;gap:12px}
+    .metric{background:#f1f5f9;padding:10px;border-radius:8px;text-align:center;min-width:80px}
+    .small{font-size:13px;color:var(--muted)}
+
+    ul.pub-list{padding-left:18px;margin:6px 0}
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:14px}
+
+    /* responsive */
+    @media (max-width:880px){.two-col{grid-template-columns:1fr}.avatar{width:88px;height:88px;font-size:28px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar" aria-hidden="true">SB</div>
+      <div>
+        <h1>Dr. Sunil Chandra Barman</h1>
+        <div class="subtitle">Associate Professor • Applied Mathematics · Fluid Mechanics · Wave Scattering</div>
+        <div class="small">Affiliation: <strong>Department / Institute name (edit)</strong></div>
+        <nav>
+          <a class="btn" href="#about">About</a>
+          <a class="btn" href="#research">Research</a>
+          <a class="btn" href="#publications">Publications</a>
+          <a class="btn" href="#teaching">Teaching</a>
+          <a class="btn primary" href="#contact">Contact / CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="card two-col">
+        <div>
+          <h2 id="about">About</h2>
+          <p>
+            <strong>Dr. Sunil Chandra Barman</strong> is an applied mathematician working on fluid dynamics, wave propagation and scattering, and mathematical modelling of environmental flows. His research spans analytical methods (asymptotics, multiple-scale expansions), spectral methods, and numerical simulations. 
+          </p>
+          <p class="small">(Edit this paragraph to add degrees, year of PhD, current position, and other career highlights.)</p>
+
+          <div style="margin-top:14px">
+            <h3>Recent highlights</h3>
+            <ul>
+              <li>Extension of Bragg scattering theory for flexural–gravity waves (preprint / link).</li>
+              <li>Two-layer fluid wave interaction — analytical & numerical studies (selected works).</li>
+              <li>Supervision of MSc / PhD students on coastal modelling and numerical methods.</li>
+            </ul>
+          </div>
+        </div>
+
+        <aside class="card" style="padding:12px;display:flex;flex-direction:column;gap:12px">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div>
+                <div class="small">Email</div>
+                <div><a href="mailto:your.email@institute.edu">your.email@institute.edu</a></div>
+              </div>
+              <div>
+                <div class="small">Location</div>
+                <div>City, Country</div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="small">Useful links</div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">
+              <a class="btn" href="#publications">Publications</a>
+              <a class="btn" href="/CV_Sunil_Chandra_Barman.pdf" target="_blank">Download CV</a>
+              <a class="btn" href="https://github.com/sunilchandrabarman" target="_blank">GitHub</a>
+              <a class="btn" href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="small">Metrics (optional)</div>
+            <div class="metrics" style="margin-top:8px">
+              <div class="metric"><div style="font-weight:700">25+</div><div class="small">Papers</div></div>
+              <div class="metric"><div style="font-weight:700">3</div><div class="small">PhD Students</div></div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="card" id="research">
+        <h2>Research</h2>
+        <p class="small">Research interests & keywords:</p>
+        <ul>
+          <li>Wave scattering, Bragg resonance, flexural–gravity waves</li>
+          <li>Two-layer fluid models, interfacial waves</li>
+          <li>Asymptotic analysis, multiple-scale expansions, spectral methods</li>
+          <li>Numerical modelling and MATLAB / Python implementations</li>
+        </ul>
+
+        <h3>Selected projects</h3>
+        <ol>
+          <li><strong>Bragg scattering of flexural–gravity waves</strong> — derivation, asymptotic expansions, and numerical validation.</li>
+          <li><strong>Two-layer fluid interfacial dynamics</strong> — analytical solutions and comparison with experiments/numerics.</li>
+        </ol>
+      </section>
+
+      <section class="card" id="publications">
+        <h2>Publications</h2>
+        <p class="small">Selected peer-reviewed publications (edit with accurate bibliographic details):</p>
+        <ul class="pub-list">
+          <li>Sunil C. Barman, A. Collaborator. <em>Title of paper 1</em>. Journal Name (Year). DOI / link.</li>
+          <li>Sunil C. Barman. <em>Title of paper 2</em>. Journal Name (Year). DOI / link.</li>
+          <li>Sunil C. Barman, B. Collaborator. <em>Title of paper 3</em>. Conference / Proceedings (Year).</li>
+        </ul>
+        <p class="small">For a full list, link to a Google Scholar or ORCID profile (edit link below).</p>
+        <div style="margin-top:12px"><a class="btn" href="#">Full publication list (link to Google Scholar / ORCID)</a></div>
+      </section>
+
+      <section class="card" id="teaching">
+        <h2>Teaching</h2>
+        <p class="small">Current / recent courses taught:</p>
+        <ul>
+          <li>Advanced Fluid Mechanics</li>
+          <li>Applied Partial Differential Equations</li>
+          <li>Numerical Methods for Engineers (MATLAB/Python)</li>
+        </ul>
+        <p class="small">Lecture notes, assignments, and project descriptions can be provided on request.</p>
+      </section>
+
+      <section class="card" id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch (collaboration, supervision, speaking invitations), please email <a href="mailto:your.email@institute.edu">your.email@institute.edu</a> or use the links below.</p>
+
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">
+          <a class="btn" href="mailto:your.email@institute.edu">Email</a>
+          <a class="btn" href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+          <a class="btn" href="https://orcid.org/" target="_blank">ORCID</a>
+          <a class="btn" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+
+        <h3 style="margin-top:16px">Embed a contact form (optional)</h3>
+        <p class="small">If you want a working contact form, consider using a service like Formspree or Netlify Forms and replace the form action.</p>
+
+      </section>
+
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> Dr. Sunil Chandra Barman — <span class="small">Made with ♥ · Hosted on GitHub Pages</span></div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
